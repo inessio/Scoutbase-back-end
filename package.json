@@ -1,0 +1,36 @@
+{
+  "name": "scoutbase-back-end",
+  "version": "1.0.0",
+  "description": "back end task of code challenge for Scoutebase",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/*.test.js",
+    "start": "nodemon -r esm ./server.js",
+    "lint": "eslint ."
+  },
+  "author": "komlan Sodji <inessio@icloud.com>",
+  "license": "ISC",
+  "keywords": [
+    "Node.js",
+    "Javascript",
+    "GraphQl",
+    "Express",
+    "Apollo"
+  ],
+  "dependencies": {
+    "apollo-server-express": "^2.9.3",
+    "dotenv": "^8.1.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^14.5.4"
+  },
+  "devDependencies": {
+    "apollo-server-testing": "^2.9.3",
+    "casual": "^1.6.2",
+    "chai": "^4.2.0",
+    "eslint": "^6.3.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.2",
+    "supertest": "^4.0.2"
+  }
+}

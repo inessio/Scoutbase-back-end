@@ -28,7 +28,7 @@ Instructions:
 }
 ```
 
-4. Add support for the following mutation:
+4.  
 ```graphql
 mutation createUser($username: String, $password: String) {
   createUser(username: $username, password: $password) {
